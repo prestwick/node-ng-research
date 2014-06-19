@@ -67,7 +67,7 @@ io.sockets.on('connection', function (socket) {
             data = [
                 {id: widgetIdRegistry.gaugeType[0], value: Math.random() * 100},
                 {id: widgetIdRegistry.gaugeType[1], value: Math.random() * 100},
-                {id: widgetIdRegistry.sliderType[0], value: Math.random() * 100},
+                //{id: widgetIdRegistry.sliderType[0], value: Math.random() * 100},
                 {id: widgetIdRegistry.numericType[0], value: Math.random() * 100}
             ];
             

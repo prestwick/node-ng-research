@@ -1,9 +1,6 @@
 /*global $, jQuery, document, io, angular*/
 
-// This is a service that will get data from the server and call the controller apis of each
-// individual widget. 
-
-var socketServiceModule = angular.module('socket-service', []);
+var socketServiceModule = angular.module('socket-service', ['app']);
 
 socketServiceModule.factory('socket', function ($rootScope) {
     "use strict";
